@@ -18,7 +18,7 @@ app.get('/ui/madi.png', function (req, res) {
 });
 
 app.get('/ui/destiny.jpg', function (req,res) {
-    res.sendFile(path.join(__dirname, 'ui', 'destiny.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'destiny.jpg'));
 });
 
 app.get('/ui/destiny1.jpg', function (req,res) {
