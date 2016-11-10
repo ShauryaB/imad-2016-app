@@ -57,6 +57,6 @@ submit.onclick = function () {
     };
     
     // Make the request
-    request.open('GET', 'http://coco98.imad.hasura-app.io/submit-name?name=' + name, true);
+    request.open('GET', 'http://shauryab.imad.hasura-app.io/submit-name?name=' + name, true);
     request.send(null);
 }
