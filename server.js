@@ -33,6 +33,11 @@ app.get('/ui/destiny1.jpg', function (req,res) {
     res.sendFile(path.join(__dirname, 'ui', 'destiny1.jpg'));
 });
 
+
+app.get('/ui/blackpic.jpg', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'blackpic.jpg'));
+});
+
 app.get('/ui/main.js',  function (req,res)  {
     res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
