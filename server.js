@@ -34,7 +34,7 @@ app.get('/ui/destiny1.jpg', function (req,res) {
 });
 
 
-app.get('/ui/blackpic.jpg', function (req,res) {
+app.get('/ui/blackpic.png', function (req,res) {
     res.sendFile(path.join(__dirname, 'ui', 'blackpic.png'));
 });
 
