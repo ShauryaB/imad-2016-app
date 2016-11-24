@@ -32,11 +32,11 @@ request.send(null);
 //submit name
 	var nameInput= document.getElementById('comment_box'); //capture the input name  
 	var name=nameInput.value;
-	var submit = document.getElementById('submit_btn ');
+	var submit = document.getElementById('submit_btn');
 	submit.onclick = function() {       //pseudocode for the function
 		//make a req to server and send the name 
 		//capture a list of name and render it as a list
-		var names= ['name1','name2','name3','name4'];
+		var names = ['name1','name2','name3','name4'];
 		var list='';
 		for (var i=0;i<names.length;i++)
 		{
@@ -47,6 +47,5 @@ request.send(null);
 		ul.innerHTML=list;
 		
 		};
-
 
 
