@@ -38,6 +38,32 @@ app.get('/ui/blackpic.png', function (req,res) {
     res.sendFile(path.join(__dirname, 'ui', 'blackpic.png'));
 });
 
+app.get('/ui/facebook_logo.png', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'facebook_logo.png'));
+});
+
+app.get('/ui/linkedin_logo.png', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'linkedin_logo.png'));
+});
+
+app.get('/ui/youtube_logo.png', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'youtube_logo.png'));
+});
+
+
+app.get('/ui/googleplus_logo.png', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'googleplus_logo.png'));
+});
+
+app.get('/ui/slideshare_logo.png', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'slideshare_logo.png'));
+});
+
+app.get('/ui/twitter_logo.png', function (req,res) {
+    res.sendFile(path.join(__dirname, 'ui', 'twitter_logo.png'));
+});
+
+
 app.get('/ui/main.js',  function (req,res)  {
     res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
