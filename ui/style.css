@@ -20,3 +20,58 @@ body {
     height: 200px;
 }
 
+.footer
+{
+	background-color:#283846;
+	height:450px;
+	width:100%;
+	padding:10px 10px;
+}
+
+.footer_firstdiv
+{
+	width:625px;
+	TEXT-align:left;
+	margin-left:275;	
+	color:#ffffff;
+	font-family:Franklin Gothic Medium; 
+}
+
+#footer_firstdiv_heading
+{
+   padding-top:30px;
+   text-align:left;  
+   font-size:36px;
+   font-family:Franklin Gothic Medium;   
+}
+
+#footer_seconddiv_heading
+{
+	font-size:36px;
+	
+}
+
+.contact
+{
+	margin-top:25px;
+    margin-bottom:37px;	
+}
+
+.logo
+{
+	padding-right:7px;
+}
+
+.menu_list_footer
+{
+	padding-top:45px;
+	padding-bottom:19px;
+}
+
+.footer_menu_list_item1,.footer_menu_list_item3,.footer_menu_list_item2,.footer_menu_list_item4
+{
+	padding-right:9px;
+	text-decoration:none;
+	font-family:Franklin Gothic Medium;
+	color:#ffffff;
+}
