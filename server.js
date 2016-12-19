@@ -19,6 +19,10 @@ app.get('/ui/Aboutme.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Aboutme.html'));
 });
 
+app.get('/ui/login.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+});
+
 var counter = 0;
 app.get('/counter', function (req, res) {
    counter = counter + 1;
